@@ -18,6 +18,18 @@ a {
     text-decoration: none;
 }
 
+#iconholder {
+  /*position: absolute;*/
+  position: relative;
+  text-align: center;
+  bottom: 0px;
+}
+
+#iconholder img {
+  width: 100px;
+  border-radius: 25%;
+}
+
 #menu ul {
   list-style: none;
   padding-left: 0;
@@ -32,6 +44,9 @@ a {
   position: relative;
   color: #FFF;
   text-decoration: none;
+  font-size: 20px;
+  padding-right: 10px; 
+  padding-left: 10px;
 }
 
 #menu ul li:hover {
@@ -56,8 +71,8 @@ a {
 
 #menu ul li:hover:before {
     visibility: visible;
-    -webkit-transform: scaleX(.8);
-    transform: scaleX(.8);
+    -webkit-transform: scaleX(.7);
+    transform: scaleX(.7);
 }
 
 .button {
